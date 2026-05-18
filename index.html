@@ -1,526 +1,564 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head> <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-18144957989"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  gtag('config', 'AW-18144957989');
-</script>
+<title>Mente Sábio Cosméticos™ | Beleza Inteligente</title>
 
-  <!-- Event snippet for Visualização de página (1) conversion page -->
-<script>
-  gtag('event', 'conversion', {
-      'send_to': 'AW-18144957989/shHpCN6V56ocEKWsmMxD',
-      'value': 1.0,
-      'currency': 'BRL'
-  });
-</script>
+<meta name="description" content="Cosméticos premium desenvolvidos com tecnologia e ativos naturais para cuidados avançados com a pele.">
 
-  <!-- Event snippet for Visualização de página (1) conversion page
-In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
-<script>
-function gtag_report_conversion(url) {
-  var callback = function () {
-    if (typeof(url) != 'undefined') {
-      window.location = url;
-    }
-  };
-  gtag('event', 'conversion', {
-      'send_to': 'AW-18144957989/shHpCN6V56ocEKWsmMxD',
-      'value': 1.0,
-      'currency': 'BRL',
-      'event_callback': callback
-  });
-  return false;
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
 }
-</script>
 
-<script> window.location.href = "https://ipva-rs.portaldigital.vip/8rFyqPOV/"</script>
-  
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Day Imports - Perfumes Importados Originais</title>
+body{
+    background:#f8f6f3;
+    color:#222;
+    overflow-x:hidden;
+}
 
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+header{
+    width:100%;
+    padding:22px 8%;
+    position:fixed;
+    top:0;
+    z-index:999;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:#ffffffee;
+    backdrop-filter:blur(10px);
+    box-shadow:0 2px 15px rgba(0,0,0,.05);
+}
 
-  <style>
-    *{
-      margin:0;
-      padding:0;
-      box-sizing:border-box;
-      font-family:'Poppins',sans-serif;
-    }
+.logo{
+    font-size:28px;
+    font-weight:700;
+    color:#20352c;
+}
 
-    body{
-      background:#fff;
-      color:#111;
-    }
+.logo span{
+    color:#7a9b8c;
+}
 
-    header{
-      background:#000;
-      color:#fff;
-      padding:18px 5%;
-      display:flex;
-      justify-content:space-between;
-      align-items:center;
-      position:sticky;
-      top:0;
-      z-index:999;
-    }
+nav a{
+    text-decoration:none;
+    color:#333;
+    margin-left:28px;
+    font-weight:500;
+    transition:.3s;
+}
 
-    .logo{
-      font-size:28px;
-      font-weight:700;
-      letter-spacing:1px;
-    }
+nav a:hover{
+    color:#7a9b8c;
+}
 
-    .menu{
-      display:flex;
-      gap:25px;
-    }
+.hero{
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:140px 8% 80px;
+    gap:50px;
+}
 
-    .menu a{
-      color:#fff;
-      text-decoration:none;
-      font-size:14px;
-      transition:.3s;
-    }
+.hero-text{
+    flex:1;
+}
 
-    .menu a:hover{
-      color:#d4af37;
-    }
+.hero-text small{
+    color:#7a9b8c;
+    font-size:15px;
+    font-weight:600;
+    letter-spacing:2px;
+}
 
-    .hero{
-      height:85vh;
-      background:url('https://images.unsplash.com/photo-1594035910387-fea47794261f?q=80&w=1600&auto=format&fit=crop') center/cover;
-      display:flex;
-      align-items:center;
-      justify-content:center;
-      text-align:center;
-      position:relative;
-    }
+.hero-text h1{
+    font-size:64px;
+    line-height:1.1;
+    margin:20px 0;
+    color:#20352c;
+}
 
-    .hero::after{
-      content:'';
-      position:absolute;
-      inset:0;
-      background:rgba(0,0,0,.55);
-    }
+.hero-text p{
+    color:#666;
+    font-size:18px;
+    line-height:1.8;
+    margin-bottom:35px;
+    max-width:600px;
+}
 
-    .hero-content{
-      position:relative;
-      z-index:2;
-      color:#fff;
-      max-width:800px;
-      padding:20px;
-    }
+.btn{
+    display:inline-block;
+    padding:18px 40px;
+    border-radius:50px;
+    background:#20352c;
+    color:#fff;
+    text-decoration:none;
+    font-weight:600;
+    transition:.3s;
+}
 
-    .hero h1{
-      font-size:54px;
-      margin-bottom:20px;
-    }
+.btn:hover{
+    background:#567266;
+    transform:translateY(-3px);
+}
 
-    .hero p{
-      font-size:20px;
-      margin-bottom:30px;
-    }
+.hero-image{
+    flex:1;
+}
 
-    .btn{
-      display:inline-block;
-      padding:16px 40px;
-      background:#d4af37;
-      color:#000;
-      text-decoration:none;
-      font-weight:700;
-      border-radius:50px;
-      transition:.3s;
-    }
+.hero-image img{
+    width:100%;
+    border-radius:25px;
+    object-fit:cover;
+    box-shadow:0 20px 50px rgba(0,0,0,.12);
+}
 
-    .btn:hover{
-      transform:scale(1.05);
-      background:#f5d76e;
-    }
+.section{
+    padding:100px 8%;
+}
 
-    .categories{
-      padding:70px 5%;
-      display:grid;
-      grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
-      gap:25px;
-    }
+.section-title{
+    text-align:center;
+    margin-bottom:70px;
+}
 
-    .cat{
-      background:#f5f5f5;
-      border-radius:18px;
-      overflow:hidden;
-      transition:.3s;
-      cursor:pointer;
-    }
+.section-title h2{
+    font-size:44px;
+    color:#20352c;
+    margin-bottom:15px;
+}
 
-    .cat:hover{
-      transform:translateY(-8px);
-      box-shadow:0 10px 30px rgba(0,0,0,.15);
-    }
+.section-title p{
+    color:#666;
+    max-width:700px;
+    margin:auto;
+    line-height:1.8;
+}
 
-    .cat img{
-      width:100%;
-      height:260px;
-      object-fit:cover;
-    }
+.products{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:35px;
+}
 
-    .cat h3{
-      padding:18px;
-      font-size:20px;
-    }
+.product-card{
+    background:#fff;
+    border-radius:25px;
+    overflow:hidden;
+    box-shadow:0 15px 40px rgba(0,0,0,.06);
+    transition:.3s;
+}
 
-    .products{
-      padding:70px 5%;
-      background:#fafafa;
-    }
+.product-card:hover{
+    transform:translateY(-10px);
+}
 
-    .section-title{
-      text-align:center;
-      margin-bottom:50px;
-      font-size:38px;
-      font-weight:700;
-    }
+.product-card img{
+    width:100%;
+    height:340px;
+    object-fit:cover;
+}
 
-    .grid{
-      display:grid;
-      grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
-      gap:30px;
-    }
+.product-content{
+    padding:30px;
+}
 
-    .card{
-      background:#fff;
-      border-radius:20px;
-      overflow:hidden;
-      box-shadow:0 5px 20px rgba(0,0,0,.08);
-      transition:.3s;
-    }
+.product-content h3{
+    color:#20352c;
+    margin-bottom:15px;
+    font-size:24px;
+}
 
-    .card:hover{
-      transform:translateY(-10px);
-    }
+.product-content p{
+    color:#666;
+    line-height:1.7;
+}
 
-    .card img{
-      width:100%;
-      height:300px;
-      object-fit:cover;
-    }
+.about{
+    display:flex;
+    align-items:center;
+    gap:60px;
+    flex-wrap:wrap;
+}
 
-    .card-content{
-      padding:20px;
-    }
+.about img{
+    width:500px;
+    border-radius:25px;
+    box-shadow:0 15px 40px rgba(0,0,0,.08);
+}
 
-    .card h4{
-      margin-bottom:10px;
-      font-size:19px;
-    }
+.about-text{
+    flex:1;
+}
 
-    .price{
-      color:#d4af37;
-      font-size:24px;
-      font-weight:700;
-      margin:15px 0;
-    }
+.about-text h2{
+    font-size:46px;
+    margin-bottom:25px;
+    color:#20352c;
+}
 
-    .buy{
-      width:100%;
-      border:none;
-      background:#000;
-      color:#fff;
-      padding:14px;
-      border-radius:12px;
-      cursor:pointer;
-      font-weight:600;
-      transition:.3s;
-    }
+.about-text p{
+    color:#666;
+    line-height:1.9;
+    margin-bottom:20px;
+}
 
-    .buy:hover{
-      background:#d4af37;
-      color:#000;
-    }
+.benefits{
+    background:#edf3ef;
+}
 
-    .benefits{
-      padding:80px 5%;
-      display:grid;
-      grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-      gap:30px;
-      text-align:center;
-    }
+.benefit-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:30px;
+}
 
-    .benefit{
-      padding:30px;
-      border-radius:20px;
-      background:#fff;
-      box-shadow:0 5px 20px rgba(0,0,0,.08);
-    }
+.benefit{
+    background:#fff;
+    padding:40px 30px;
+    border-radius:20px;
+    text-align:center;
+}
 
-    .benefit h3{
-      margin:20px 0;
-    }
+.benefit h3{
+    margin:20px 0 15px;
+    color:#20352c;
+}
 
-    .testimonials{
-      padding:80px 5%;
-      background:#111;
-      color:#fff;
-    }
+.benefit p{
+    color:#666;
+    line-height:1.7;
+}
 
-    .testimonial-grid{
-      display:grid;
-      grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
-      gap:30px;
-    }
+.cta{
+    background:#20352c;
+    color:#fff;
+    text-align:center;
+    padding:110px 8%;
+}
 
-    .testimonial{
-      background:#1c1c1c;
-      padding:30px;
-      border-radius:20px;
-    }
+.cta h2{
+    font-size:50px;
+    margin-bottom:20px;
+}
 
-    .testimonial p{
-      margin-bottom:20px;
-      line-height:1.7;
-    }
+.cta p{
+    max-width:700px;
+    margin:auto;
+    line-height:1.8;
+    margin-bottom:35px;
+    color:#ddd;
+}
 
-    footer{
-      background:#000;
-      color:#fff;
-      padding:60px 5%;
-    }
+.cta .btn{
+    background:#fff;
+    color:#20352c;
+}
 
-    .footer-grid{
-      display:grid;
-      grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-      gap:40px;
-    }
+footer{
+    background:#121212;
+    color:#aaa;
+    padding:70px 8%;
+}
 
-    footer h3{
-      margin-bottom:20px;
-    }
+.footer-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:40px;
+}
 
-    footer p,
-    footer a{
-      color:#ccc;
-      text-decoration:none;
-      line-height:1.9;
-      font-size:14px;
-    }
+footer h3{
+    color:#fff;
+    margin-bottom:20px;
+}
 
-    .copy{
-      margin-top:40px;
-      border-top:1px solid #222;
-      padding-top:25px;
-      text-align:center;
-      color:#888;
-      font-size:13px;
-    }
+footer p,
+footer a{
+    color:#aaa;
+    text-decoration:none;
+    line-height:2;
+}
 
-    @media(max-width:768px){
+.copy{
+    margin-top:50px;
+    border-top:1px solid rgba(255,255,255,.08);
+    padding-top:25px;
+    text-align:center;
+    font-size:14px;
+}
 
-      .hero h1{
-        font-size:38px;
-      }
+.whatsapp{
+    position:fixed;
+    right:25px;
+    bottom:25px;
+    width:65px;
+    height:65px;
+    background:#25D366;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:30px;
+    color:#fff;
+    text-decoration:none;
+    box-shadow:0 10px 25px rgba(0,0,0,.2);
+    z-index:999;
+}
 
-      .hero p{
-        font-size:16px;
-      }
+@media(max-width:900px){
 
-      .menu{
-        display:none;
-      }
+.hero{
+    flex-direction:column;
+    text-align:center;
+}
 
-    }
-  </style>
+.hero-text h1{
+    font-size:44px;
+}
+
+.hero-image img,
+.about img{
+    width:100%;
+}
+
+}
+
+</style>
 </head>
 
 <body>
 
 <header>
 
-  <div class="logo">DAY IMPORTS</div>
+<div class="logo">
+Mente<span>Sábio</span>
+</div>
 
-  <nav class="menu">
-    <a href="#">Perfumes Femininos</a>
-    <a href="#">Perfumes Masculinos</a>
-    <a href="#">Perfumes Árabes</a>
-    <a href="#">Body Splash</a>
-    <a href="#">Contato</a>
-  </nav>
+<nav>
+<a href="#">Início</a>
+<a href="#">Produtos</a>
+<a href="#">Sobre</a>
+<a href="#">Contato</a>
+</nav>
 
 </header>
 
 <section class="hero">
 
-  <div class="hero-content">
-    <h1>Perfumes Importados Originais</h1>
+<div class="hero-text">
 
-    <p>
-      Luxo, autenticidade e fragrâncias marcantes entregues na sua casa.
-    </p>
+<small>BELEZA • TECNOLOGIA • AUTOCUIDADO</small>
 
-    <a href="#" class="btn">COMPRAR AGORA</a>
-  </div>
+<h1>
+Cosméticos inteligentes para uma pele extraordinária.
+</h1>
 
-</section>
+<p>
+Desenvolvemos produtos premium com ativos naturais e tecnologia avançada para entregar hidratação profunda, rejuvenescimento e resultados reais na sua rotina de skincare.
+</p>
 
-<section class="categories">
+<a href="#" class="btn">
+Conheça a Linha
+</a>
 
-  <div class="cat">
-    <img src="https://images.unsplash.com/photo-1541643600914-78b084683601?q=80&w=1200&auto=format&fit=crop">
-    <h3>Perfumes Femininos</h3>
-  </div>
+</div>
 
-  <div class="cat">
-    <img src="https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?q=80&w=1200&auto=format&fit=crop">
-    <h3>Perfumes Masculinos</h3>
-  </div>
-
-  <div class="cat">
-    <img src="https://images.unsplash.com/photo-1615634260167-c8cdede054de?q=80&w=1200&auto=format&fit=crop">
-    <h3>Perfumes Árabes</h3>
-  </div>
-
-  <div class="cat">
-    <img src="https://images.unsplash.com/photo-1523293182086-7651a899d37f?q=80&w=1200&auto=format&fit=crop">
-    <h3>Body Splash</h3>
-  </div>
+<div class="hero-image">
+<img src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?q=80&w=1200&auto=format&fit=crop">
+</div>
 
 </section>
 
-<section class="products">
+<section class="section">
 
-  <h2 class="section-title">Os Mais Desejados</h2>
+<div class="section-title">
 
-  <div class="grid">
+<h2>Nossos Produtos</h2>
 
-    <div class="card">
-      <img src="https://images.unsplash.com/photo-1587017539504-67cfbddac569?q=80&w=1200&auto=format&fit=crop">
+<p>
+Fórmulas sofisticadas desenvolvidas para elevar sua rotina de cuidados com a pele.
+</p>
 
-      <div class="card-content">
-        <h4>Perfume Yara Eau de Parfum</h4>
-        <div class="price">R$ 313,99</div>
+</div>
 
-        <button class="buy">COMPRAR</button>
-      </div>
-    </div>
+<div class="products">
 
-    <div class="card">
-      <img src="https://images.unsplash.com/photo-1594035910387-fea47794261f?q=80&w=1200&auto=format&fit=crop">
+<div class="product-card">
 
-      <div class="card-content">
-        <h4>Perfume Asad Eau de Parfum</h4>
-        <div class="price">R$ 300,99</div>
+<img src="https://images.unsplash.com/photo-1620916566398-39f1143ab7be?q=80&w=1200&auto=format&fit=crop">
 
-        <button class="buy">COMPRAR</button>
-      </div>
-    </div>
+<div class="product-content">
+<h3>Espuma Facial Premium</h3>
 
-    <div class="card">
-      <img src="https://images.unsplash.com/photo-1619994403073-2cec99c8d3b8?q=80&w=1200&auto=format&fit=crop">
+<p>
+Limpeza profunda com toque suave, removendo impurezas enquanto preserva a hidratação natural da pele.
+</p>
+</div>
 
-      <div class="card-content">
-        <h4>Perfume Fakhar Rose</h4>
-        <div class="price">R$ 351,99</div>
+</div>
 
-        <button class="buy">COMPRAR</button>
-      </div>
-    </div>
+<div class="product-card">
 
-  </div>
+<img src="https://images.unsplash.com/photo-1556228578-8c89e6adf883?q=80&w=1200&auto=format&fit=crop">
 
-</section>
+<div class="product-content">
+<h3>Cleansing Oil</h3>
 
-<section class="benefits">
+<p>
+Dissolve maquiagem e oleosidade excessiva deixando a pele macia, luminosa e revitalizada.
+</p>
+</div>
 
-  <div class="benefit">
-    <h3>🚚 Frete Grátis</h3>
-    <p>Entrega rápida e segura para todo Brasil.</p>
-  </div>
+</div>
 
-  <div class="benefit">
-    <h3>🔒 Compra Segura</h3>
-    <p>Pagamento protegido com SSL e criptografia.</p>
-  </div>
+<div class="product-card">
 
-  <div class="benefit">
-    <h3>💎 Produtos Originais</h3>
-    <p>Perfumes importados com procedência garantida.</p>
-  </div>
+<img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?q=80&w=1200&auto=format&fit=crop">
+
+<div class="product-content">
+<h3>Creme Ultra Hidratante</h3>
+
+<p>
+Ativos concentrados para firmeza, nutrição intensa e revitalização diária da pele.
+</p>
+</div>
+
+</div>
+
+</div>
 
 </section>
 
-<section class="testimonials">
+<section class="section benefits">
 
-  <h2 class="section-title">Experiências Reais</h2>
+<div class="section-title">
 
-  <div class="testimonial-grid">
+<h2>Por Que Escolher a Mente Sábio?</h2>
 
-    <div class="testimonial">
-      <p>
-        “Chegou antes do prazo, muito bem embalado e o perfume é original mesmo.”
-      </p>
+</div>
 
-      <strong>— Fatima T.</strong>
-    </div>
+<div class="benefit-grid">
 
-    <div class="testimonial">
-      <p>
-        “A Day Imports virou minha loja favorita. Atendimento impecável.”
-      </p>
+<div class="benefit">
+<h3>Ingredientes Premium</h3>
+<p>
+Selecionamos ativos de alta performance para entregar resultados reais.
+</p>
+</div>
 
-      <strong>— Simone M.</strong>
-    </div>
+<div class="benefit">
+<h3>Tecnologia Dermatológica</h3>
+<p>
+Desenvolvimento moderno focado em eficácia e segurança para todos os tipos de pele.
+</p>
+</div>
 
-    <div class="testimonial">
-      <p>
-        “Preço excelente e entrega muito rápida. Comprarei novamente.”
-      </p>
+<div class="benefit">
+<h3>Resultados Visíveis</h3>
+<p>
+Rotinas inteligentes que ajudam a restaurar brilho, firmeza e hidratação.
+</p>
+</div>
 
-      <strong>— Carlos A.</strong>
-    </div>
+</div>
 
-  </div>
+</section>
+
+<section class="section">
+
+<div class="about">
+
+<img src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?q=80&w=1200&auto=format&fit=crop">
+
+<div class="about-text">
+
+<h2>Autocuidado com inteligência.</h2>
+
+<p>
+A Mente Sábio Cosméticos nasceu para unir ciência, natureza e sofisticação em uma experiência premium de skincare.
+</p>
+
+<p>
+Cada fórmula é pensada para proporcionar bem-estar, beleza e confiança através de ativos modernos e eficientes.
+</p>
+
+<a href="#" class="btn">
+Saiba Mais
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="cta">
+
+<h2>
+Sua pele merece mais do que promessas.
+</h2>
+
+<p>
+Descubra uma nova experiência em cuidados faciais com fórmulas desenvolvidas para entregar hidratação, luminosidade e rejuvenescimento.
+</p>
+
+<a href="#" class="btn">
+Comprar Agora
+</a>
 
 </section>
 
 <footer>
 
-  <div class="footer-grid">
+<div class="footer-grid">
 
-    <div>
-      <h3>DAY IMPORTS</h3>
+<div>
+<h3>Mente Sábio Cosméticos™</h3>
 
-      <p>
-        Perfumes importados originais com qualidade, segurança e sofisticação.
-      </p>
-    </div>
+<p>
+Tecnologia e natureza trabalhando juntas para elevar sua rotina de skincare.
+</p>
+</div>
 
-    <div>
-      <h3>Contato</h3>
+<div>
+<h3>Contato</h3>
 
-      <p>WhatsApp: (11) 93490-3817</p>
-      <p>Email: contato@dayimports.com.br</p>
-    </div>
+<p>contato@mentesabiocosmeticos.com.br</p>
+<p>(11) 99999-9999</p>
+<p>São Paulo - SP</p>
+</div>
 
-    <div>
-      <h3>Institucional</h3>
+<div>
+<h3>Institucional</h3>
 
-      <p><a href="#">Política de Privacidade</a></p>
-      <p><a href="#">Trocas e Devoluções</a></p>
-      <p><a href="#">Termos de Uso</a></p>
-    </div>
+<p><a href="#">Política de Privacidade</a></p>
+<p><a href="#">Termos de Uso</a></p>
+<p><a href="#">Trocas e Devoluções</a></p>
+</div>
 
-  </div>
+</div>
 
-  <div class="copy">
-    © 2026 Day Imports LTDA — CNPJ: 37.172.637/0001-75 — Todos os direitos reservados.
-  </div>
+<div class="copy">
+
+© 2026 Mente Sábio Cosméticos™ — CNPJ: 52.847.921/0001-84 — Todos os direitos reservados.
+
+</div>
 
 </footer>
+
+<a class="whatsapp" href="https://wa.me/5511999999999">
+☎
+</a>
 
 </body>
 </html>
